@@ -1,7 +1,0 @@
-from purpleair import PurpleAir
-
-p = PurpleAir('9F663E3C-C405-11ED-B6F4-42010A800007')
-
-# See help(p.get_sensor_history) for param names, and see https://api.purpleair.com for API info.
-
-p.get_sensor_history(group = 1027, fields=('name', 'pm2.5','temperature', 'humidity' ), start_timestamp=datetime.today())
